@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const SignupPage = () => {
+const LoginPage = () => {
     return (
         <div className="h-screen flex">
             {/* LEFT */}
-            <div className="w-[50%] md:w-[50%] lg:w-[50%] xl:w-[50%] p-4 flex flex-col">
+            <div className="w-[100%] lg:w-[50%] xl:w-[50%] p-4 flex flex-col">
                 <div className="w-[100%] h-[50px] items-start m-2">
                     <Link href="/">
                         <Image
@@ -17,7 +17,7 @@ const SignupPage = () => {
                     </Link>
                 </div>
                 <div className="w-[100%] h-[100%] flex flex-col items-center justify-center gap-3">
-                    <h1 className="p-4 font-bold text-xl">Regístrate</h1>
+                    <h1 className="p-4 font-bold text-xl">Crear cuenta</h1>
                     <input
                         className="w-[300] border border-gray-300 rounded-lg pl-4 p-2 text-sm"
                         placeholder="Email"></input>
@@ -28,7 +28,7 @@ const SignupPage = () => {
                         Registrar
                     </button>
                     <span className="font-semibold text-gray-400 text-sm">
-                        Ya tienes cuenta?{" "}
+                        Ya tienes una cuenta{" "}
                         <Link className="text-blue-500 underline" href="/login">
                             Login
                         </Link>
@@ -61,7 +61,7 @@ const SignupPage = () => {
                 </div>
             </div>
             {/* RIGHT */}
-            <div className="w-[50%] md:w-[50%] lg:w-[50%] xl:w-[50%] bg-[#F7F8FA] h-[100%] relative overflow-hidden">
+            <div className="hidden lg:block w-[50%] xl:w-[50%] bg-[#F7F8FA] h-[100%] relative overflow-hidden">
                 <Image
                     src="/login.png"
                     fill
@@ -73,4 +73,4 @@ const SignupPage = () => {
     );
 };
 
-export default SignupPage;
+export default LoginPage;

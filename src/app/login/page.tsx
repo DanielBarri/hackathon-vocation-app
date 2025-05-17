@@ -27,14 +27,14 @@ const LoginPage = () => {
                         className="w-[300] border border-gray-300 rounded-lg pl-4 p-2 text-sm"
                         placeholder="Password"></input>
                     <button className="bg-black w-[300] h-[40] rounded-lg text-md text-white font-semibold hover:bg-black/80">
-                        Registrar
+                        Ingresar
                     </button>
                     <span className="font-semibold text-gray-400 text-sm">
                         Registra una cuenta{" "}
                         <Link
                             className="text-blue-500 underline"
-                            href="/sign-in">
-                            Sign-in
+                            href="/sign-up">
+                            Sign-up
                         </Link>
                     </span>
                 </div>
