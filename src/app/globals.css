@@ -9,6 +9,32 @@
     --lamaPurpleLight: #f1f0ff;
     --lamaYellow: #fae27c;
     --lamaYellowLight: #fefce8;
+    --accent-color: #ff006e;
+    --accent2-color: #8338ec;
+    --accent3-color: #22c55e;
+    --accent4-color: #fb8500;
+    --primary-color: #5276fa;
+    --dark-text-color: #000000;
+    --gray-text-color: #6c757d;
+    --button-padding-x: 12px;
+    --button-padding-y: 8px;
+    --font-family-body: "Inter", sans-serif;
+    --light-text-color: #ffffff;
+    --dark-border-color: #303030;
+    --light-border-color: #e0e0e0;
+    --font-family-heading: "Poppins", sans-serif;
+    --button-rounded-radius: 8px;
+    --dark-background-color: #101010;
+    --light-background-color: #f5f9ff;
+    --medium-background-color: #e0f0ff;
+    --primary-button-bg-color: #5276fa;
+    --primary-button-text-color: #ffffff;
+    --secondary-button-bg-color: #ffffff;
+    --secondary-button-text-color: #3a86ff;
+    --primary-button-hover-bg-color: #265fd6;
+    --primary-button-hover-text-color: #ffffff;
+    --secondary-button-hover-bg-color: #e3f2ff;
+    --secondary-button-hover-text-color: #3a86ff;
 }
 
 @theme inline {
@@ -25,7 +51,6 @@
 }
 
 html {
-    overflow-y: hidden;
 }
 
 .react-calendar {

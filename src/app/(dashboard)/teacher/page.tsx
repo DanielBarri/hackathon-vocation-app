@@ -2,7 +2,7 @@
 
 import Announcements from "@/components/Announcements";
 
-const StudentPage = () => {
+const TeacherPage = () => {
     return (
         <div className="p-4 flex gap-4 flex-col xl:flex-row">
             {/* LEFT */}
@@ -22,4 +22,4 @@ const StudentPage = () => {
     );
 };
 
-export default StudentPage;
+export default TeacherPage;
